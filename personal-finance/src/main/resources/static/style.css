@@ -1073,3 +1073,96 @@ tbody tr:hover {
     color: #26365D !important;
     font-weight: 600;
 }
+
+/* Transactions page background image only */
+body.transactions-page {
+    background:
+        linear-gradient(
+            rgba(4, 15, 38, 0.78),
+            rgba(7, 28, 58, 0.82)
+        ),
+        url("/finora-transactions-bg.png")
+        center center / cover no-repeat fixed;
+
+    min-height: 100vh;
+}
+
+/* Balance Card - Dark Professional Style */
+.transactions-page .summary-card.balance-card {
+    background: linear-gradient(135deg, #c9f0e5, #a8e3d3) !important;
+    border: 1px solid #65c9ad;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Balance label */
+.transactions-page .balance-card .card-label {
+    color: #164e45 !important;
+    font-weight: 700;
+}
+
+/* Balance amount */
+.transactions-page .balance-card h2 {
+    color: #073b32 !important;
+    font-weight: 800;
+}
+
+/* Income minus expenses text */
+.transactions-page .balance-card .card-foot {
+    color: #245e53 !important;
+    font-weight: 600;
+}
+
+/* Wallet icon */
+.transactions-page .balance-card .card-icon {
+    color: #087f5b !important;
+    background: #d9f8eb !important;
+}
+
+/* Transactions Page Heading */
+.transactions-page .topbar h1 {
+    color: #d5fff2 !important;
+    font-weight: 800;
+    text-shadow: 0 2px 12px rgba(45, 212, 191, 0.2);
+}
+
+/* Transactions Welcome Heading */
+.transactions-page .welcome-row h2 {
+    color: #ffffff !important;
+    font-weight: 750;
+}
+
+/* Transactions Subtitle */
+.transactions-page .welcome-row p {
+    color: #c4e4ed !important;
+}
+
+/* Home / Overview Main Heading */
+body:not(.transactions-page) .topbar h1 {
+    color: #123b52;
+    font-weight: 800;
+}
+
+/* Home page greeting / welcome heading */
+body:not(.transactions-page) .welcome-row h2 {
+    color: #087f70;
+    font-weight: 750;
+}
+
+/* Profile page heading */
+.profile-page h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 1.2;
+}
+
+/* Finora logo */
+.profile-page .brand,
+.profile-page .logo {
+    font-weight: 600;
+}
+
+/* Profile subtitle */
+.profile-page p {
+    font-weight: 400;
+}
